@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
-import  logo from './collegeLogo.svg';
+import  logo from './logo.svg';
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -13,7 +13,7 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             <img src={logo} className="App-logo" alt="logo"></img>
-           {/*<i className="fas fa-code"></i>*/}
+           
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -50,17 +50,7 @@ function NavBar() {
                 Page 4
               </NavLink>
             </li>
-           {/* <li className="nav-item">
-              <NavLink
-                exact
-                to="/logout"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Logout
-              </NavLink>
-            </li> */}
+           
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>

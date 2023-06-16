@@ -19,15 +19,7 @@
     max-width: 1500px;
   }
   
-  /*.nav-logo {
-    color: #f5b921;
-    align-items: center;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    flex-grow: 1;
-  }*/
+ 
   
   .nav-menu {
     display: flex;
@@ -119,9 +111,10 @@
   }
   
   .App-logo{
-    width: 150px;
+    width: 100px;
     margin-right: 945px;
-    margin-top: -1rem;
+    margin-left: -150px;
+    margin-top: -0.2rem;
   }
   @media screen and (max-width: 600px) {
         .App-logo{
@@ -129,24 +122,6 @@
           width:100px;
           height:70px;
         }
-        /*.nav-menu {
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          border-top: 1pxsolid #fff;
-          position: absolute;
-          top: 80px;
-          left: -130%;
-          opacity: 1;
-          transition: all 0.5s ease;
-        }
-        .nav-container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 80px;
-          max-width: 1500px;
-        }*/
+       
   }
   
